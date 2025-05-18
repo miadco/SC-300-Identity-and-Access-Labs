@@ -1,15 +1,41 @@
-# Lab 25 – Manage Group Expiration
+📘 Overview
+This lab demonstrates how to create and manage Access Reviews in Microsoft Entra ID (formerly Azure AD). It focuses on implementing identity governance by reviewing group memberships and ensuring that only authorized users retain access — a key practice for enforcing least privilege and compliance readiness.
 
-## Objective
-This lab focuses on the configuration and administration of Microsoft Entra ID to support identity and access management tasks related to "Manage Group Expiration".
+🎯 Objectives
+Create an access review for a Microsoft Entra group
 
-## Key Tasks
-- Enable expiration policies and notify group owners.
+Assign reviewers and configure recurrence
 
-## Tools Used
-- Microsoft Entra Admin Center
-- Microsoft 365 Admin Center (where applicable)
-- PowerShell or CLI (if applicable)
+Automate user review workflows
 
-## Screenshots
-Refer to the `/screenshots/` folder for visual confirmation of lab completion.
+Monitor access decisions and review outcomes
+
+🧪 Lab Tasks Performed
+Created a new access review for the "Sales and Marketing" group
+
+Set the scope to "All users" in the group
+
+Assigned Alex Wilber as the reviewer
+
+Configured the review to recur annually
+
+Customized review settings and added messaging for reviewers
+
+Published and verified the access review within the Entra admin center
+
+⚙️ Technologies Used
+Microsoft Entra ID
+
+Identity Governance
+
+Access Reviews
+
+Azure Portal
+
+💡 Key Takeaways
+Access reviews help maintain secure, compliant environments by regularly validating access rights
+
+Configuring automated and recurring reviews minimizes manual oversight
+
+This lab reinforced my understanding of lifecycle governance in enterprise identity management
+
