@@ -16,8 +16,6 @@ This lab focuses on performing tasks related to **Using Azure Key Vault for Mana
 - Logging tools or audit logs
 
 ## 📸 Screenshots
-> _Add screenshots showing configuration steps, test results, or portal views._
-
 ## 💡 Key Concepts Reinforced
 - Practical understanding of **Using Azure Key Vault for Managed Identity**
 - Reinforcement of IAM and Zero Trust principles
@@ -29,5 +27,3 @@ This lab focuses on performing tasks related to **Using Azure Key Vault for Mana
 - Key takeaways on best practices and secure configuration
 
 ## 🔗 Related Microsoft Docs
-> _Add relevant Microsoft documentation links here based on the lab topic._
-
