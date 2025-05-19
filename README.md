@@ -1,33 +1,87 @@
-# SC-300: Identity and Access Administrator – Lab Portfolio
+# 🛡️ SC-300: Identity and Access Administrator – Lab Portfolio
 
-This repository contains a comprehensive set of labs completed as part of the SC-300 Microsoft Identity and Access Administrator certification path. Each folder includes a README and screenshots demonstrating hands-on experience with Microsoft Entra ID, identity governance, privileged access, and identity protection.
+This repository showcases a comprehensive set of hands-on labs completed as part of the **Microsoft SC-300: Identity and Access Administrator** certification path. These labs demonstrate real-world experience with Microsoft Entra ID and key identity security practices, including:
+
+* 🔐 Identity Governance
+* 👥 User & Group Management
+* 🧩 Role-Based Access Control (RBAC)
+* 🔄 Access Reviews & Lifecycle Workflows
+* 🔒 Conditional Access Policies
+* 👤 Privileged Identity Management (PIM)
+* 📊 Monitoring & Secure Score Optimization
+
+Each lab folder includes:
+
+* A detailed `README.md` outlining the objectives, tools used, tasks performed, key learnings, and relevant Microsoft Docs.
+* Supporting screenshots, configuration steps, and real-world insights.
+
+---
 
 ## ✅ Completed Labs
 
-This portfolio includes visual documentation and lab summaries for the following exercises:
+| Lab # | Title                                           |
+| ----- | ----------------------------------------------- |
+| 01    | Manage User Roles                               |
+| 02    | Working with Tenant Properties                  |
+| 03    | Assigning Licenses Using Group Membership       |
+| 04    | Configure External Collaboration Settings       |
+| 05    | Add Guest Users to the Directory                |
+| 06    | Add a Federated Identity Provider               |
+| 08    | Enable Multi-Factor Authentication              |
+| 09    | Enable Self-Service Password Reset              |
+| 10    | Entra ID Authentication for Windows & Linux VMs |
+| 12    | Manage Smart Lockout Values                     |
+| 13    | Conditional Access Policies                     |
+| 14    | Sign-in and User Risk Policies                  |
+| 15    | MFA Registration Policy                         |
+| 16    | Azure Key Vault & Managed Identity              |
+| 17    | Defender for Cloud Apps Application Discovery   |
+| 19    | Register an Application                         |
+| 20    | Access Reviews for Applications                 |
+| 21    | Configure Entitlement Management                |
+| 22    | Create a Custom Role                            |
+| 23    | Add Terms of Use & Acceptance Reporting         |
+| 24    | Lifecycle of External Users                     |
+| 25    | Access Reviews for Internal & External Users    |
+| 26    | Lifecycle Workflows                             |
+| 27    | Workload Identities & Sentinel Queries          |
+| 28    | Secure Score & PIM Configuration                |
 
-- [Lab 01](./Lab_01/README.md)
-- [Lab 02](./Lab_02/README.md)
-- [Lab 03](./Lab_03/README.md)
-- [Lab 04](./Lab_04/README.md)
-- [Lab 05](./Lab_05/README.md)
-- [Lab 06](./Lab_06/README.md)
-- [Lab 08](./Lab_08/README.md)
-- [Lab 09](./Lab_09/README.md)
-- [Lab 10](./Lab_10/README.md)
-- [Lab 12](./Lab_12/README.md)
-- [Lab 13](./Lab_13/README.md)
-- [Lab 14](./Lab_14/README.md)
-- [Lab 15](./Lab_15/README.md)
-- [Lab 16](./Lab_16/README.md)
-- [Lab 17](./Lab_17/README.md)
-- [Lab 19](./Lab_19/README.md)
-- [Lab 20](./Lab_20/README.md)
-- [Lab 21](./Lab_21/README.md)
-- [Lab 22](./Lab_22/README.md)
-- [Lab 23](./Lab_23/README.md)
-- [Lab 24](./Lab_24/README.md)
-- [Lab 25](./Lab_25/README.md)
-- [Lab 26](./Lab_26/README.md)
-- [Lab 27](./Lab_27/README.md)
-- [Lab 28](./Lab_28/README.md)
+> ⚠️ Labs 07, 11, and 18 were intentionally excluded.
+
+---
+
+## 📚 About This Portfolio
+
+All labs in this portfolio were based on the official SC-300 learning materials provided by Microsoft. You can access the same lab guides and resources I used at: [https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/)
+
+This project demonstrates a commitment to hands-on, practical learning and a deep understanding of Microsoft Entra ID and identity security principles. It supports my career transition into Identity & Access Management (IAM), cloud administration, or security support roles.
+
+---
+
+## 🔗 Related Certifications and Skills
+
+* Microsoft Certified: Identity and Access Administrator Associate *(In Progress)*
+* Practical experience with:
+
+  * Microsoft Entra ID (formerly Azure AD)
+  * Conditional Access, MFA, PIM, Identity Governance
+  * Azure Portal, PowerShell, and CLI
+* Strong foundation in Zero Trust architecture and identity lifecycle management
+
+---
+
+## 📁 Repository Navigation
+
+Each lab directory includes:
+
+* `README.md`: Detailed summary of the lab
+* `screenshots/`: Visual proof of hands-on configuration and outcomes
+
+---
+
+## 🧠 Why This Matters
+
+I was initially intimidated by Azure and the cloud as a whole. The platform felt vast, abstract, and full of stories about runaway bills from misconfigured resources. These SC-300 labs were my first real-world experience with the Azure platform, and they turned that fear into confidence.
+
+I learned how to monitor my usage carefully, stay within budget, and use cloud services responsibly. More importantly, I turned the cloud from a theoretical concept into a working environment I can build in. This lab series proved to me that I not only understand these technologies, but I can work with them professionally and contribute to enterprise identity and access solutions.
