@@ -1,17 +1,33 @@
-# Lab 03 – Assign Licenses Using Group Membership
+# Lab 03 - Assigning licenses using group membership
 
-## Objective
-This lab focuses on the configuration and administration of Microsoft Entra ID to support identity and access management tasks related to "Assign Licenses Using Group Membership".
+## 🔍 Objective
+This lab focuses on performing tasks related to **Assigning licenses using group membership** in Microsoft Entra ID or other Microsoft security tools.
 
-## Key Tasks
-- Create a group.
-- Assign licenses to the group.
-- Add members and verify license assignment.
+## 🛠️ Tasks Performed
+- Step-by-step configuration or implementation related to: **Assigning licenses using group membership**
+- Use of Microsoft Entra admin center and/or other relevant portals
+- Testing, validating, and reviewing policy effects or service configurations
+- Documenting outcomes and analyzing logs or changes
 
-## Tools Used
-- Microsoft Entra Admin Center
-- Microsoft 365 Admin Center (where applicable)
-- PowerShell or CLI (if applicable)
+## 🧪 Tools Used
+- Microsoft Entra admin center
+- Azure portal
+- PowerShell / CLI (if applicable)
+- Logging tools or audit logs
 
-## Screenshots
-Refer to the `/screenshots/` folder for visual confirmation of lab completion.
+## 📸 Screenshots
+> _Add screenshots showing configuration steps, test results, or portal views._
+
+## 💡 Key Concepts Reinforced
+- Practical understanding of **Assigning licenses using group membership**
+- Reinforcement of IAM and Zero Trust principles
+- Identification of common configuration pitfalls and their resolutions
+
+## 🧠 What I Learned
+- Deeper familiarity with the Microsoft identity and access ecosystem
+- Hands-on experience configuring real-world security or access policies
+- Key takeaways on best practices and secure configuration
+
+## 🔗 Related Microsoft Docs
+> _Add relevant Microsoft documentation links here based on the lab topic._
+
