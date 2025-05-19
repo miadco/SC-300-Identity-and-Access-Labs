@@ -15,7 +15,6 @@ This lab focuses on performing tasks related to **Create a custom role and assig
 - PowerShell / CLI (if applicable)
 - Logging tools or audit logs
 
-## 📸 Screenshots
 ## 💡 Key Concepts Reinforced
 - Practical understanding of **Create a custom role and assign permissions**
 - Reinforcement of IAM and Zero Trust principles
@@ -26,4 +25,3 @@ This lab focuses on performing tasks related to **Create a custom role and assig
 - Hands-on experience configuring real-world security or access policies
 - Key takeaways on best practices and secure configuration
 
-## 🔗 Related Microsoft Docs

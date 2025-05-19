@@ -15,7 +15,6 @@ This lab focuses on performing tasks related to **Configure a Multifactor authen
 - PowerShell / CLI (if applicable)
 - Logging tools or audit logs
 
-## 📸 Screenshots
 ## 💡 Key Concepts Reinforced
 - Practical understanding of **Configure a Multifactor authentication registration policy**
 - Reinforcement of IAM and Zero Trust principles
@@ -26,4 +25,3 @@ This lab focuses on performing tasks related to **Configure a Multifactor authen
 - Hands-on experience configuring real-world security or access policies
 - Key takeaways on best practices and secure configuration
 
-## 🔗 Related Microsoft Docs

@@ -15,7 +15,6 @@ This lab focuses on performing tasks related to **Review Microsoft Entra Privile
 - PowerShell / CLI (if applicable)
 - Logging tools or audit logs
 
-## 📸 Screenshots
 ## 💡 Key Concepts Reinforced
 - Practical understanding of **Review Microsoft Entra Privileged Identity Management**
 - Reinforcement of IAM and Zero Trust principles
@@ -26,4 +25,3 @@ This lab focuses on performing tasks related to **Review Microsoft Entra Privile
 - Hands-on experience configuring real-world security or access policies
 - Key takeaways on best practices and secure configuration
 
-## 🔗 Related Microsoft Docs
