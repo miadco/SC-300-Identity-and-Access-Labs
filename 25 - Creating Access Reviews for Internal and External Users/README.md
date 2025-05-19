@@ -1,41 +1,33 @@
-📘 Overview
-This lab demonstrates how to create and manage Access Reviews in Microsoft Entra ID (formerly Azure AD). It focuses on implementing identity governance by reviewing group memberships and ensuring that only authorized users retain access — a key practice for enforcing least privilege and compliance readiness.
+# Lab 25 - Creating access reviews for users
 
-🎯 Objectives
-Create an access review for a Microsoft Entra group
+## 🔍 Objective
+This lab focuses on performing tasks related to **Creating access reviews for users** in Microsoft Entra ID or other Microsoft security tools.
 
-Assign reviewers and configure recurrence
+## 🛠️ Tasks Performed
+- Step-by-step configuration or implementation related to: **Creating access reviews for users**
+- Use of Microsoft Entra admin center and/or other relevant portals
+- Testing, validating, and reviewing policy effects or service configurations
+- Documenting outcomes and analyzing logs or changes
 
-Automate user review workflows
+## 🧪 Tools Used
+- Microsoft Entra admin center
+- Azure portal
+- PowerShell / CLI (if applicable)
+- Logging tools or audit logs
 
-Monitor access decisions and review outcomes
+## 📸 Screenshots
+> _Add screenshots showing configuration steps, test results, or portal views._
 
-🧪 Lab Tasks Performed
-Created a new access review for the "Sales and Marketing" group
+## 💡 Key Concepts Reinforced
+- Practical understanding of **Creating access reviews for users**
+- Reinforcement of IAM and Zero Trust principles
+- Identification of common configuration pitfalls and their resolutions
 
-Set the scope to "All users" in the group
+## 🧠 What I Learned
+- Deeper familiarity with the Microsoft identity and access ecosystem
+- Hands-on experience configuring real-world security or access policies
+- Key takeaways on best practices and secure configuration
 
-Assigned Alex Wilber as the reviewer
-
-Configured the review to recur annually
-
-Customized review settings and added messaging for reviewers
-
-Published and verified the access review within the Entra admin center
-
-⚙️ Technologies Used
-Microsoft Entra ID
-
-Identity Governance
-
-Access Reviews
-
-Azure Portal
-
-💡 Key Takeaways
-Access reviews help maintain secure, compliant environments by regularly validating access rights
-
-Configuring automated and recurring reviews minimizes manual oversight
-
-This lab reinforced my understanding of lifecycle governance in enterprise identity management
+## 🔗 Related Microsoft Docs
+> _Add relevant Microsoft documentation links here based on the lab topic._
 
