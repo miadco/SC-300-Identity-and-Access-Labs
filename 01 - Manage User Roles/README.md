@@ -1,27 +1,43 @@
-# Lab 01 - Manage User Roles
+Lab 01 – Manage User Roles
+🔒 SC-300: Microsoft Identity and Access Administrator
+📄 Official Lab Instructions
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Manage User Roles** in Microsoft Entra ID or other Microsoft security tools.
+🧭 Overview
+This lab simulates a critical IAM task: assigning and revoking roles in Microsoft Entra ID to enforce Role-Based Access Control (RBAC) and uphold the principle of least privilege. It's a foundational activity for securing access across enterprise environments.
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Manage User Roles**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+🔍 Objective
+Demonstrate the ability to assign and remove directory roles in Microsoft Entra ID, validate permissions, and ensure changes are accurately logged for compliance and auditing purposes.
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+🛠️ Tasks Performed
+Accessed the Microsoft Entra admin center as a Global Administrator
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Manage User Roles**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+Navigated to Roles & Administrators and located the User Administrator role
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+Assigned the User Administrator role to a test user
+
+Signed in as the test user to verify elevated permissions in the Microsoft 365 admin center
+
+Revoked the User Administrator role and confirmed restricted access
+
+Inspected audit logs to verify successful tracking of role assignment and removal
+
+🧪 Tools Used
+Microsoft Entra admin center
+
+Microsoft 365 admin center
+
+Audit Logs
+
+Role-based Access Control (RBAC) interface
+
+💡 Key Concepts Reinforced
+Role-Based Access Control (RBAC) in Entra ID
+
+Principle of least privilege
+
+Role assignment lifecycle and verification
+
+Administrative boundary testing
+
+Audit log traceability for identity governance
 
