@@ -1,27 +1,44 @@
-# Lab 27 - Explore Microsoft Entra Workload Identities
+## Lab 27 – Microsoft Sentinel Kusto Queries
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Explore Microsoft Entra Workload Identities** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_27_MicrosoftSentinelKustoQueries.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Explore Microsoft Entra Workload Identities**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Explore Microsoft Entra Workload Identities**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab introduces Microsoft Sentinel and its integration with Azure Log Analytics. It demonstrates how to connect Sentinel to a workspace and begin querying security data using Kusto Query Language (KQL).
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Onboard Microsoft Sentinel to a Log Analytics workspace and use KQL to investigate security logs and identify potential threats.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Microsoft Sentinel** blade in the Azure portal
+* Added Microsoft Sentinel to an existing Log Analytics workspace named `SentinelLogAnalytics` within the `sentinel-rg` resource group
+* Navigated to the **Logs** section of the connected workspace to begin querying security data
+* Used **Kusto Query Language (KQL)** to run queries on collected security events
+
+---
+
+### 🧪 Tools Used
+
+* Azure portal
+* Microsoft Sentinel
+* Log Analytics workspace
+* Kusto Query Language (KQL) editor
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Microsoft Sentinel onboarding and workspace integration
+* Centralized log management via Azure Monitor and Log Analytics
+* Security event analysis using KQL
+* Real-time threat detection and response insights
+* Foundation for building automated detection rules and workbooks
