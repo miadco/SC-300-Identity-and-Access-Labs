@@ -1,27 +1,46 @@
-# Lab 19 - Configure access reviews for groups
+## Lab 19 – Register an Application
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Configure access reviews for groups** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_19_RegisterAnApplication.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Configure access reviews for groups**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Configure access reviews for groups**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to register an application in Microsoft Entra ID and configure authentication, API exposure, delegated scopes, and client credentials. It also covers assigning custom roles for managing app permissions.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Register an app in Microsoft Entra ID and configure the necessary identity, API, and permission settings to support secure authentication and delegated access.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Registered a **single-tenant application** named `demoapp` in Microsoft Entra ID
+* Configured the application's **redirect URI** to `https://localhost` for testing scenarios
+* Created a **client secret** with a 90-day expiration to support confidential client authentication
+* Assigned a unique **Application ID URI** to enable secure API exposure
+* Defined a delegated scope named `Employees.Read.All` for both user and admin consent to allow read-only access
+* Created a second delegated scope named `Employees.Write.All` restricted to admins for managing employee records
+* Defined a **custom role** with permissions to update credentials on service principals and applications
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* App registrations and API permissions panel
+* Authentication and API exposure configuration tabs
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Application registration and identity configuration in Microsoft Entra ID
+* Redirect URI and client secret management
+* Delegated permissions and API scope definition
+* Application roles and custom role-based access
+* Secure app integration using Entra ID as an identity provider
