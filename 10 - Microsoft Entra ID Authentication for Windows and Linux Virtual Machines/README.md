@@ -1,27 +1,45 @@
-# Lab 10 - Microsoft Entra ID Authentication for Windows
+## Lab 10 – Microsoft Entra ID Authentication for Windows and Linux Virtual Machines
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Microsoft Entra ID Authentication for Windows** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_10_AzureADAuthenticationForWindowsAndLinuxVM.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Microsoft Entra ID Authentication for Windows**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Microsoft Entra ID Authentication for Windows**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to enable Microsoft Entra ID-based authentication for both Windows and Linux Azure virtual machines. It includes configuring VM access, assigning appropriate roles, and validating secure connection methods.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
+
+### 🔍 Objective
+
+Configure and test Microsoft Entra ID authentication for Azure VMs by assigning roles and establishing RDP/SSH connections for secure access.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Deployed a Windows 11 virtual machine configured for Microsoft Entra ID join
+* Assigned the **Virtual Machine Administrator Login** role to designated users to enable authenticated access
+* Reviewed the VM's connection settings and accessed the instance using RDP and the public IP
+* Validated that assigned users could sign in to the VM using their Entra ID credentials
+
+---
+
+### 🧪 Tools Used
+
+* Azure portal
+* Microsoft Entra admin center
+* Role assignments (RBAC) interface
+* Remote Desktop (RDP) client
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Microsoft Entra ID join and authentication for Azure VMs
+* Role-based access control (RBAC) for VM login authorization
+* Secure remote access via RDP or SSH
+* Integration of identity services with infrastructure access
+* Least privilege and identity-based administrative control
 
