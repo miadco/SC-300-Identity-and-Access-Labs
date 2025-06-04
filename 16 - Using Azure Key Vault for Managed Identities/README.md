@@ -1,27 +1,44 @@
-# Lab 16 - Using Azure Key Vault for Managed Identity
+## Lab 16 – Using Azure Key Vault for Managed Identities
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Using Azure Key Vault for Managed Identity** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_16_UsingAzureKeyVaultForManagedIdentities.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Using Azure Key Vault for Managed Identity**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Using Azure Key Vault for Managed Identity**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to securely access secrets stored in Azure Key Vault using system-assigned managed identities on virtual machines. This removes the need to hardcode credentials in applications or scripts.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Configure Azure Key Vault and assign managed identities to virtual machines so they can securely retrieve secrets without requiring embedded credentials.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Created a new Azure Key Vault instance in a selected resource group and region
+* Added a new secret to the Key Vault with optional metadata to simulate secure data storage
+* Enabled the **system-assigned managed identity** on a virtual machine during configuration
+* Verified the identity settings from the VM's **Identity** section under the management tab
+* Confirmed that the VM can securely authenticate to Key Vault and access secrets using its managed identity
+
+---
+
+### 🧪 Tools Used
+
+* Azure portal
+* Azure Key Vault
+* Virtual Machines (VM) Identity settings panel
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* System-assigned managed identities for Azure resources
+* Secure secret access without embedded credentials
+* Azure Key Vault integration with virtual machines
+* Role-based access control (RBAC) for Key Vault permissions
+* Best practices for identity-based application authentication
