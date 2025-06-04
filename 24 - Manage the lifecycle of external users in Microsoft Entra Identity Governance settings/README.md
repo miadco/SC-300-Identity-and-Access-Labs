@@ -1,27 +1,45 @@
-# Lab 24 - Use Microsoft Entra logs to troubleshoot
+## Lab 24 – Manage the Lifecycle of External Users in Microsoft Entra ID
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Use Microsoft Entra logs to troubleshoot** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_24_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Use Microsoft Entra logs to troubleshoot**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Use Microsoft Entra logs to troubleshoot**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to manage the lifecycle of external users in Microsoft Entra ID by configuring identity governance settings. It shows how to automatically block and remove users who no longer have access package assignments.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
+
+### 🔍 Objective
+
+Configure lifecycle policies to automatically manage and remove external users who no longer have active entitlements in Microsoft Entra ID.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Navigated to **Identity Governance** > **Settings** in Microsoft Entra admin center
+* Configured lifecycle settings for external users based on access package assignment status
+* Set external users to be **blocked from signing in** immediately after losing access
+* Configured automatic **removal from the directory** with a zero-day delay following access removal
+* Verified and saved settings to enforce policy across the tenant
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* Identity Governance > Settings
+* Access packages and external user lifecycle management panel
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Lifecycle automation for external user management
+* Governance controls for access removal and deprovisioning
+* Risk reduction by eliminating dormant external identities
+* Integration of access packages with user lifecycle policies
+* Security best practices for external collaboration in Entra ID
 
