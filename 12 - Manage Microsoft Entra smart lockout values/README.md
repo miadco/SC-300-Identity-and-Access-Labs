@@ -1,27 +1,42 @@
-# Lab 12 - Manage Microsoft Entra smart lockout values
+## Lab 12 – Manage Microsoft Entra Smart Lockout Values
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Manage Microsoft Entra smart lockout values** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_12_ManageAzureADSmartLockoutValues.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Manage Microsoft Entra smart lockout values**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Manage Microsoft Entra smart lockout values**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab focuses on enhancing account protection by configuring smart lockout settings and custom password protection policies in Microsoft Entra ID. These features help prevent unauthorized access and mitigate brute force attacks.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Configure smart lockout policies and banned password settings to improve resilience against repeated login attempts and common password use.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Authentication methods** section in the Microsoft Entra admin center
+* Configured **smart lockout threshold** and **lockout duration** to control how many failed sign-in attempts trigger account lockout
+* Enabled and customized the **banned password policy**, including enforcement of custom banned passwords
+* Saved and validated policy updates to confirm that settings were applied across the tenant
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* Authentication methods > Password protection settings panel
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Smart lockout configuration to block repeated unauthorized sign-in attempts
+* Password protection and banned password list enforcement
+* Balancing security with usability in authentication policy design
+* Tenant-wide application of identity security policies
+* Role of lockout and password hygiene in Zero Trust strategies
