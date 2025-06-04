@@ -1,27 +1,43 @@
-# Lab 17 - Defender for Cloud Apps application discovery
+## Lab 17 – Defender for Cloud Apps Application Discovery and Enforcing Restrictions
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Defender for Cloud Apps application discovery** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_17_DefenderForCloudAppsDiscoveryAndRestrictions.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Defender for Cloud Apps application discovery**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Defender for Cloud Apps application discovery**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to use Microsoft Defender for Cloud Apps to discover shadow IT and enforce governance policies through application tagging and access control decisions.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Leverage application discovery and governance tools in Defender for Cloud Apps to manage cloud usage and enforce policy-based access restrictions.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Cloud App Catalog** in Microsoft Defender for Cloud Apps
+* Located and reviewed usage metrics for the **Dropbox** application within the discovered apps list
+* Tagged **Dropbox** as a **Sanctioned** application to enforce appropriate governance actions and highlight organizational approval
+* Validated the tagging status to ensure the policy reflects across the app catalog
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Defender for Cloud Apps
+* Cloud App Catalog
+* Application discovery and tagging interface
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Shadow IT detection through Defender for Cloud Apps
+* Application tagging for governance and compliance
+* Cloud app usage analysis and reporting
+* Enforcing organizational policies through app classification
+* Integration of security tools for visibility and control
