@@ -1,27 +1,44 @@
-# Lab 21 - Configure Entitlement Management
+## Lab 21 – Grant Tenant-Wide Admin Consent to an Application
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Configure Entitlement Management** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Configure Entitlement Management**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Configure Entitlement Management**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to grant tenant-wide admin consent in Microsoft Entra ID for a registered application. This process authorizes the app to access resources across the organization on behalf of all users, streamlining access without requiring individual user consent.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Grant tenant-wide admin consent to an application to enable seamless access to required permissions across all users in the organization.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Enterprise Applications** blade in the Microsoft Entra admin center
+* Located the registered application and initiated the admin consent workflow
+* Reviewed the requested permissions including **Microsoft Graph - User.Read**
+* Granted tenant-wide admin consent, authorizing app permissions for all users
+* Confirmed consent success through the application's permissions panel
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* Enterprise Applications > Permissions settings
+* Admin consent workflow and confirmation panel
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Tenant-wide admin consent for application permissions
+* Microsoft Graph permission scopes and delegated access
+* Simplifying user experience by centralizing app authorization
+* Enterprise app governance and permission transparency
+* Reducing consent fatigue while maintaining security control
