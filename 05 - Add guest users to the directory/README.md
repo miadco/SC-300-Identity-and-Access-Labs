@@ -1,27 +1,42 @@
-# Lab 05 - Add guest users to the directory
+## Lab 05 – Add Guest Users to the Directory
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Add guest users to the directory** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_05_AddGuestUsersToTheDirectory.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Add guest users to the directory**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Add guest users to the directory**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab demonstrates how to add guest users to Microsoft Entra ID using both manual and bulk methods. These techniques are essential for managing external collaboration at scale while maintaining secure and efficient onboarding workflows.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Perform both individual and bulk guest user onboarding in Microsoft Entra ID, enabling external identities to be securely invited and provisioned within the organization.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Used the **New user** dropdown in the Microsoft Entra admin center to manually invite an external user to the directory
+* Executed a **PowerShell script** to bulk invite guest users, simulating enterprise-level onboarding
+* Verified the successful addition of guest accounts and their visibility within the user directory
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* PowerShell
+* External Identities > All Users view
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Manual vs. automated guest user onboarding strategies
+* PowerShell automation for scalable identity provisioning
+* External identity management and directory integration
+* Security considerations when onboarding guest users
+* Microsoft Entra ID as a hub for collaboration with external partners
