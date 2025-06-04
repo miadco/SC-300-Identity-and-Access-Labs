@@ -1,27 +1,43 @@
-# Lab 25 - Creating access reviews for users
+## Lab 25 – Creating Access Reviews for Users
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Creating access reviews for users** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Creating access reviews for users**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Creating access reviews for users**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab focuses on configuring access reviews in Microsoft Entra ID to monitor and manage user access, particularly for guest users, ensuring only necessary access is retained over time.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Create an access review to periodically evaluate and govern user access to resources, reducing security risks from over-provisioned or inactive accounts.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Identity Governance > Access reviews** section in Microsoft Entra admin center
+* Created a new access review targeting guest users with access to specific groups or applications
+* Configured review settings including **reviewer assignment**, **review frequency**, and **auto-apply actions**
+* Set the review to automatically remove users who were denied continued access
+* Saved and initiated the review to monitor access compliance
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* Identity Governance > Access reviews configuration panel
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Periodic access reviews for identity governance
+* Reducing risk through active guest user auditing
+* Reviewer delegation and automation of access decisions
+* Access lifecycle management and cleanup
+* Strengthening Zero Trust posture through user access validation
