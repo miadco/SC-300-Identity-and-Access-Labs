@@ -1,27 +1,47 @@
-# Lab 02 - Working with Tenant Properties
+## Lab 02 – Working with Tenant Properties
 
-## 🔍 Objective
-This lab focuses on performing tasks related to **Working with Tenant Properties** in Microsoft Entra ID or other Microsoft security tools.
+🔒 **SC-300: Microsoft Identity and Access Administrator**
+📄 [Official Lab Instructions](https://microsoftlearning.github.io/SC-300-Identity-and-Access-Administrator/Instructions/Labs/Lab_02_WorkingWithTenantProperties.html)
 
-## 🛠️ Tasks Performed
-- Step-by-step configuration or implementation related to: **Working with Tenant Properties**
-- Use of Microsoft Entra admin center and/or other relevant portals
-- Testing, validating, and reviewing policy effects or service configurations
-- Documenting outcomes and analyzing logs or changes
+---
 
-## 🧪 Tools Used
-- Microsoft Entra admin center
-- Azure portal
-- PowerShell / CLI (if applicable)
-- Logging tools or audit logs
+### 🧽 Overview
 
-## 💡 Key Concepts Reinforced
-- Practical understanding of **Working with Tenant Properties**
-- Reinforcement of IAM and Zero Trust principles
-- Identification of common configuration pitfalls and their resolutions
+This lab focuses on configuring foundational tenant-level settings in Microsoft Entra ID, including custom domain creation, tenant branding, privacy metadata, and identity governance properties. These configurations are essential for establishing a secure and compliant identity infrastructure.
 
-## 🧠 What I Learned
-- Deeper familiarity with the Microsoft identity and access ecosystem
-- Hands-on experience configuring real-world security or access policies
-- Key takeaways on best practices and secure configuration
+---
 
+### 🔍 Objective
+
+Demonstrate the ability to manage Microsoft Entra tenant properties by creating custom subdomains, updating organizational details, and configuring privacy settings to align with compliance requirements.
+
+---
+
+### 🛠️ Tasks Performed
+
+* Accessed the **Microsoft Entra admin center** as a Global Administrator
+* Created a custom subdomain (`sales.tenantname.onmicrosoft.com`) via the **Microsoft 365 admin center**
+* Updated tenant display name to "Contoso Marketing" and set the technical contact
+* Reviewed immutable tenant attributes such as **Country or region** and **Location**
+* Retrieved the **Tenant ID** from the **Properties** section for future reference
+* Configured **Global privacy contact** and linked a **Privacy statement URL** to enhance transparency for internal users and external guests
+* Verified the visibility of the privacy statement through the **Microsoft Entra user portal**
+
+---
+
+### 🧪 Tools Used
+
+* Microsoft Entra admin center
+* Microsoft 365 admin center
+* Tenant Properties interface
+* Privacy settings configuration
+
+---
+
+### 💡 Key Concepts Reinforced
+
+* Custom domain management within Microsoft Entra ID
+* Tenant branding and organizational metadata configuration
+* Understanding and handling immutable tenant attributes
+* Retrieval and significance of the Tenant ID in identity management
+* Implementation of privacy contacts and statements to support compliance and transparency
